@@ -1,18 +1,18 @@
 Git :
-- clone ?
 - Créer une nouvelle branche
 - Bonus : rebase branche sur master
 
 Nodejs :
-- ajouter un middleware simple, genre recup d'un parametre de query
+- Ajouter un middleware simple, comme recupération d'un parametre de query
 - Modifier template ejs : appel d'un script en https ou http selon le protocole du site
-- Bonus : y'a y-il un moyen plus simple de faire ça : oui, utiliser //domain.com/script.js
+- Bonus : existe-il un moyen plus simple de faire ça ? oui, utiliser //domain.com/script.js
 
 HTML / CSS :
-- afficher image Retina ou non + en fonction de la taille du navigateur
-- Petite histoire de cascade, ?
+- Afficher une image Retina ou non et en fonction de la taille de la fenêtre du navigateur avec deux cas
+  - l'image change de ratio en fonction de la taille de la fenêtre
+  - l'image ne change pas de ratio
 
 Javascript :
-- créer un nouvel élément dans le DOM dynamiquement en dessous d'un autre déjà présent
+- Créer un nouvel élément dans le DOM dynamiquement en dessous d'un autre déjà présent
 - Désactiver un bouton de formulaire après le clic de l'utilisateur pour éviter la double soumission
 
