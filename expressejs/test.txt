@@ -16,3 +16,37 @@ Javascript :
 - Créer un nouvel élément dans le DOM dynamiquement en dessous d'un autre déjà présent
 - Désactiver un bouton de formulaire après le clic de l'utilisateur pour éviter la double soumission
 
+
+Questionnaire :
+
+1/ En html, quelle est la différence entre <nav> et <menu> ?
+<nav> : regroupe des liens de navigation interne ou externe au site.
+<menu> : regroupe en général des liens, input ou bouton, effectue des fonctions dans la page.
+
+2/ En html, quelle est la différence entre <section> et <div> ?
+<div> : Section générique qui peut contenir des contenus divers et variés.
+<section> : Section générique regroupant un même sujet, une même fonctionnalité, de préférence avec un en-tête, ou bien section d'application web. C’est un peu comme une <div> mais qui est plus explicite quant à son contenu.
+
+3/ Http2 va t’il apporter une différence à la construction des fichiers css ?
+Pas vraiment, le HTTP2 a pour but d’augmenter la rapidité de navigation, notamment via la compression des headers, des requêtes et des réponses, et du multiplexage des requêtes au serveur. On en vient au fait qu’on peut garder la meme construction des fichiers css, mais on peut également grâce au multiplexage des requêtes de créer plusieurs petites feuilles css plutôt qu’une grande. 
+
+4/ En javascript, quelle est la différence entre debounce et throttle ?
+Le throttle permet d’éviter des appels consécutifs en introduisant un délai. Le debounce fait la meme chose, à la différence c’est qu’il initialise un délai à chaque fois que la fonction est appelée.
+
+5/ Quelles sont les différents type de base de données ? Donnez des exemples
+Il existe principalement 2 types de base de données (SGBD) : les bases de données relationnelles SGBDR (mySQL) et les bases de données non relationnelles SGBD NoSQL (MongoDB).
+
+6/ En ligne de commande, comment afficher le chmod des fichiers ?
+A partir du répertoire où l’on veut vérifier le chmod des fichiers : ls -l
+
+7/ Quelles sont les étapes d’un rebase git en ligne de commande ?
+
+
+8/ En css, quelles sont les pseudo-selecteurs que l’on peut appliquer sur input ?
+:checked, :disabled, :enabled, :focus, :in-range, :invalid, :optional, :out-of-range, :read-only, :read-write, :required et :valid
+
+9/ En css, qu’est-ce qu’une mixin ?
+Un mixin est une directive qui vous permet de définir des règles multiples dépendant de plusieurs arguments.
+
+10/ Qu’est-ce que le cache manifest ? 
+L’application cache (AppCache) permet la mise hors ligne des ressources nécessaires à une application web. Le fichier manifest est un fichier texte qui répertorie les ressources que le navigateur doit mettre en cache faire tourner l’application. 
